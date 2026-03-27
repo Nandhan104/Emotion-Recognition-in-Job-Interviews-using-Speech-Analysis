@@ -1,0 +1,38 @@
+## Prerequisites
+- Python (>= 3.8)
+- pip
+- Git
+
+## Setup Steps
+- Clone the repository  
+  `git clone https://github.com/your-username/emotion-detection-speech.git`  
+  `cd emotion-detection-speech`
+
+- Create virtual environment  
+  `python -m venv venv`
+
+- Activate virtual environment  
+  - Windows: `venv\Scripts\activate`  
+  - Mac/Linux: `source venv/bin/activate`
+
+- Install dependencies  
+  `pip install -r requirements.txt`
+
+- Download datasets (RAVDESS, TESS)
+
+- Place datasets in  
+  `data/` folder
+
+- Train the model (optional)  
+  `python train.py`
+
+- Run the project  
+  `python main.py`
+
+- Run web app (optional)  
+  `streamlit run app.py`
+
+## Notes
+- Use `.wav` audio files
+- Ensure correct dataset path
+- Use GPU for faster training (optional)
